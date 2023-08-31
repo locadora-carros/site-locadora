@@ -131,7 +131,7 @@
 }
 
 .nav__item:hover{
-  color: #f9a826;
+  color: #ffffff;
 }
 .search__box{
   border: 1px solid #7c8a9721;
@@ -158,5 +158,5 @@
 }
 
 .nav__active{
-  color: #f9a826;
+  color: #194acf;
 }
