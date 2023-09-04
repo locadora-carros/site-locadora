@@ -40,7 +40,7 @@ const Header = () => {
                         <div className="header__top__left">
                             <span>Need Help?</span>
                             <span className="header__top__help">
-                                <i class="ri-phone-fill"></i> +1-202-555-0149
+                                <i class="ri-phone-fill"></i> +xx-(xx)xxxxx-xxxxx
                             </span>
                         </div>
                     </Col>
@@ -83,7 +83,7 @@ const Header = () => {
                                 <i class="ri-earth-line"></i>
                             </span>
                             <div className="header__location-contet">
-                                <h4>Paraiba</h4>
+                                <h4>Brasil</h4>
                                 <h6>Rio tinto, Paraiba</h6>
                             </div>
                         </div>
@@ -93,7 +93,7 @@ const Header = () => {
                             <span><i class="ri-time-line"></i></span>
                             <div className="header__location-contet">
                                 <h4>Sunday to Friday</h4>
-                                <h6>10am - 7pm</h6>
+                                <h6>8am - 17pm</h6>
                             </div>
                         </div>
                     </Col>
