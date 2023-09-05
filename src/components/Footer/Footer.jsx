@@ -28,7 +28,7 @@ const quickLinks = [
 ]
 
 const Footer = () => {
-    
+
     const date = new Date()
     const year = date.getFullYear()
     return <footer className="footer">
@@ -69,13 +69,18 @@ const Footer = () => {
                     <div className="mb-4">
                         <h5 className="footer__link-title mb-4">Head Office</h5>
 
-                        <p className="office__info">S/N UFPB, Rio Tinto, Paraiba</p>
+                        <p className="office__info"><span><i class="ri-home-2-line"></i></span>
+                            S/N UFPB, Rio Tinto, Paraiba</p>
 
-                        <p className="office__info">Phone: (00)00000-0000</p>
+                        <p className="office__info"><span><i class="ri-phone-line"></i></span>
+                            Phone: (00)00000-0000</p>
 
-                        <p className="office__info">Email: defantefante@gmail.com</p>
+                        <p className="office__info"> <span><i class="ri-mail-line"></i></span>
+                            Email: defantefante@gmail.com
+                        </p>
 
-                        <p className="office__info">Office Time: 7am - 17pm</p>
+                        <p className="office__info"> <span><i class="ri-time-line"></i></span>
+                            Office Time: 7am - 17pm</p>
                     </div>
                 </Col>
 

@@ -79,6 +79,7 @@ footer__link-title {
 }
 
 .footer__bottom {
-    border-top: 1px solid #7c8a9721;
+    border-top: 2px solid #7c8a9721;
+    font-size: 20px;
 
 }
