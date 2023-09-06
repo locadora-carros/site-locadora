@@ -8,6 +8,9 @@ import AboutSection from "../components/UI/AboutSection";
 import ServicesList from "../components/UI/ServiceList";
 import carData from '../assets/data/carData'
 import CarItem from "../components/UI/CarItem";
+import BecomeDriverSection from "../components/UI/BecomeDriverSection";
+import Testimonial from "../components/UI/Testimonial";
+
 
 const Home = () => {
     return (
@@ -47,10 +50,7 @@ const Home = () => {
                     </Row>
                 </Container>
             </section>
-
-
-
-            {/* ========== car offer section ============ */}
+            {/* =========== car offer section ============= */}
             <section>
                 <Container>
                     <Row>
@@ -65,7 +65,26 @@ const Home = () => {
                     </Row>
                 </Container>
             </section>
+            {/* =========== become a driver section ============ */}
+            <BecomeDriverSection />
+
+            {/* =========== testimonial section ============ */}
+
+            <section>
+                <Container>
+                    <Row>
+                        <Col lg="12" className="mb-4 text-center">
+                            <h6 className="section__subtitle">Our clients says</h6>
+                            <h2 className="section__title">Testimonials</h2>
+                        </Col>
+
+                        <Testimonial />
+                    </Row>
+                </Container>
+            </section>
+
+
         </Helmet>
-    )
-}
+    );
+};
 export default Home;
