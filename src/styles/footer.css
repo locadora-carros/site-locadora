@@ -1,0 +1,85 @@
+.footer {
+    background: #9b910896;
+    padding-top: 50px;
+    padding-bottom: 15px;
+}
+
+.footer__logo i {
+    color: #000000;
+    font-weight: 500;
+}
+
+.footer__logo span {
+    color: #000000;
+    font-weight: 500;
+}
+
+
+
+.footer__logo-content {
+    color: rgba(255, 255, 255, 0.715);
+    margin-top: 15px;
+    line-height: 30px;
+}
+
+.quick__link {
+    border: none !important;
+    background: transparent !important;
+}
+
+.quick__link a {
+    color: rgba(0, 0, 0, 0.715);
+    text-decoration: none;
+    font-weight: 300;
+    transition: 0.3s;
+}
+
+.quick__link a:hover {
+    color: #fffdfd;
+}
+
+footer__link-title {
+    color: #ffffff;
+}
+
+.office_info {
+    color: rgba(255, 255, 255, 0.715);
+    font-weight: 300;
+}
+
+.footer__link-title {
+    color: #000000;
+}
+
+.section__description {
+    color: #000000;
+}
+
+.newsletter {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 12px;
+    border: 1px solid #7c8a9721;
+    border-radius: 50px;
+    background: #9b910896;
+}
+
+
+.newsletter input {
+    background: transparent;
+    color: #fff;
+    border: none;
+    outline: none;
+}
+
+.newsletter span i {
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.footer__bottom {
+    border-top: 2px solid #7c8a9721;
+    font-size: 20px;
+
+}
