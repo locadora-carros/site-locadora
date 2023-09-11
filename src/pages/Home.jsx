@@ -37,6 +37,7 @@ const Home = () => {
             </section>
             {/* =========== about section ================ */}
             <AboutSection />
+            
             {/* ========== services section ============ */}
             <section>
                 <Container>
@@ -65,6 +66,7 @@ const Home = () => {
                     </Row>
                 </Container>
             </section>
+
             {/* =========== become a driver section ============ */}
             <BecomeDriverSection />
 
@@ -77,13 +79,10 @@ const Home = () => {
                             <h6 className="section__subtitle">Our clients says</h6>
                             <h2 className="section__title">Testimonials</h2>
                         </Col>
-
                         <Testimonial />
                     </Row>
                 </Container>
             </section>
-
-
         </Helmet>
     );
 };

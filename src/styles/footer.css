@@ -1,5 +1,5 @@
 .footer {
-    background: #9b910896;
+    background: #565c0380;
     padding-top: 50px;
     padding-bottom: 15px;
 }
@@ -28,7 +28,7 @@
 }
 
 .quick__link a {
-    color: rgba(0, 0, 0, 0.715);
+    color: rgba(255, 255, 255, 0.715);
     text-decoration: none;
     font-weight: 300;
     transition: 0.3s;
@@ -81,5 +81,4 @@ footer__link-title {
 .footer__bottom {
     border-top: 2px solid #7c8a9721;
     font-size: 20px;
-
 }

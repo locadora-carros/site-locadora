@@ -92,7 +92,7 @@ const Header = () => {
                         <div className="header__location d-flex align-items-center gap-2">
                             <span><i class="ri-time-line"></i></span>
                             <div className="header__location-contet">
-                                <h4>Sunday to Friday</h4>
+                                <h4>Saturday to Saturday</h4>
                                 <h6>8am - 17pm</h6>
                             </div>
                         </div>
