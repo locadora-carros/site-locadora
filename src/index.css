@@ -1,73 +1,74 @@
-
-/* =============Google Fonts=============*/
+/* ========= fonts ========= */
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@200;300;400;600;700;900&display=swap');
 
-
-/* =============Base Style=============*/
-
-*{
+/* ========= base style ========= */
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: 'Source Sans 3', sans-serif;
 }
 
+/* ========= pre define css ========= */
 
-/* =============pre-define css=============*/
-h1,h2,h3,h4,h5,h6{
-  color:#7c8a92;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #000d6b;
   font-weight: 600;
   margin-bottom: 0;
 }
 
-h3, h4{
+h3,
+h4 {
   font-size: 1.8rem;
 }
 
-h5,h6{
+h5,
+h6 {
   font-size: 1.2rem;
-
 }
-a{
+
+a {
   text-decoration: none;
   color: unset;
 }
 
-a:hover{
+a:hover {
   color: unset;
 }
 
-ul{
+ul {
   margin: 0;
   list-style: none;
-
 }
 
-.section__title{
+.section_title {
   color: #000d6b;
   font-weight: 600;
   font-size: 2rem;
 }
 
-.section__subtitle{
-  color:#f9a826;
+.section_subtitle {
+  color: #f9a826;
   font-weight: 600;
   font-size: 1.2rem;
-
 }
 
-.section__description{
-  color: chocolate;
+.section_description {
+  color: #7c8a97;
   font-size: .9rem;
   line-height: 30px;
-
 }
 
-section{
+section {
   padding: 50px 0px;
-
 }
-.btn{
+
+.btn {
   padding: 7px 15px;
   background: #000d6b;
   color: #fff;
@@ -77,19 +78,21 @@ section{
   transition: .3s;
 }
 
-.btn:hover{
-  color: #FFF;
-  background: #000d6bd0;
+.btn:hover {
+  color: #fff;
+  background: #000d6b;
 }
 
-@media only screen and (max-width: 768px){
-  section{
+@media only screen and (max-width:768px) {
+  section {
     padding: 30px 0px;
   }
-  .section__title{
+
+  .section_title {
     font-size: 1.6rem;
   }
-  .section__subtitle{
+
+  .section_subtitle {
     font-size: 1.1rem;
   }
 }
